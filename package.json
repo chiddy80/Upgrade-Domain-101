@@ -1,11 +1,16 @@
 {
   "name": "websocket-server",
   "version": "1.0.0",
+  "description": "WebSocket server for HTTP 101 upgrades",
+  "main": "server.js",
   "scripts": {
     "start": "node server.js"
   },
   "dependencies": {
     "express": "^4.18.0",
     "ws": "^8.0.0"
+  },
+  "engines": {
+    "node": ">=18.0.0"
   }
 }
